@@ -1,5 +1,5 @@
 {
-  "name": "afterwriting",
+  "name": "afterwriting-fork-rickschubert",
   "version": "1.12.9",
   "description": "Screewriting tools",
   "keywords": [
@@ -26,8 +26,7 @@
     "build": "./node_modules/.bin/grunt build",
     "version": "npm run build && git add .",
     "postversion": "git push --follow-tags",
-    "snyk-protect": "snyk protect",
-    "prepare": "npm run snyk-protect"
+    "snyk-protect": "snyk protect"
   },
   "devDependencies": {
     "chai": "^3.5.0",

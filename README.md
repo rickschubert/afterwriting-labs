@@ -1,9 +1,13 @@
+My private fork so that the page numbers start at 1. Simply run `npm publish` to publish to npm
+
+==========================
+
 # afterwriting-labs
 
-[![Known Vulnerabilities](https://snyk.io/test/github/ifrost/afterwriting-labs/badge.svg)](https://snyk.io/test/github/ifrost/afterwriting-labs) 
+[![Known Vulnerabilities](https://snyk.io/test/github/ifrost/afterwriting-labs/badge.svg)](https://snyk.io/test/github/ifrost/afterwriting-labs)
 [![Build Status](https://travis-ci.org/ifrost/afterwriting-labs.svg?branch=master)](https://travis-ci.org/ifrost/afterwriting-labs)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
-[![Twitter](https://img.shields.io/twitter/url/https/github.com/ifrost/afterwriting-labs.svg?style=social)](https://twitter.com/afterwriting) 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Twitter](https://img.shields.io/twitter/url/https/github.com/ifrost/afterwriting-labs.svg?style=social)](https://twitter.com/afterwriting)
 
 'afterwriting provides post-processing tools for [Fountain](https://fountain.io) screenplays:
 

@@ -1,7 +1,7 @@
 define('utils/pdfmaker', function(require) {
-    
+
     // TODO: Extract pdfmaker to a separate library (+++++)
-    
+
     var PDFDocument = require('pdfkit'),
         helper = require('utils/helper');
 
@@ -282,7 +282,7 @@ define('utils/pdfmaker', function(require) {
         }
 
         var y = 0,
-            page = 1,
+            page = 0,
             scene_number,
             prev_scene_continuation_header = '',
             scene_continuations = {},
