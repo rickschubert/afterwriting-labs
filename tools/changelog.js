@@ -47,12 +47,12 @@ function main() {
         process.stdout.write("Provide repo url as the first argument.\n");
         return;
     }
-    
+
     var from = getCurrentTag() || getFirstCommit();
     var repoUrl = getRepoUrl();
     var changes = getChanges(from, repoUrl);
     var log = "Changes:\n\n" + changes;
-    
+
     if (process.argv[3] === "console") {
         print(log);
     }
